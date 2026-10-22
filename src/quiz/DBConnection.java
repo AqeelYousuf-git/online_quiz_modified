@@ -8,6 +8,6 @@ public class DBConnection {
         Class.forName("com.mysql.cj.jdbc.Driver");
         return DriverManager.getConnection(
             "jdbc:mysql://localhost:3306/quiz_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true",
-            "root", "CodeNova@CSEB");   
+            "root", "Your_Password_here");   
     }
 }
